@@ -10,4 +10,9 @@ puts "----------"
 
 @store1.name = 'Vancouver'
 
+
+
 puts @store1.name
+@store1.save
+puts Store.find_by(id: 1).name
+
